@@ -1,0 +1,82 @@
+/* comon styles */
+body {
+  font-family: "Lato", sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+header {
+  width: 1500px;
+  height: 600px;
+  background: rgba(229, 84, 115, 0.1);
+  background-size: cover;
+}
+.banner-container {
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-title {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 800;
+  padding-top: 50px;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.banner-btn {
+  border-radius: 5px;
+  background: #e55473;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 20px;
+  border: none;
+}
+.offer-button {
+  border-radius: 5px;
+  background: #e55473;
+  height: 40px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 20px;
+  border: none;
+}
+.banner-img {
+  width: 400px;
+  height: 550px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 0;
+}
+
+/* main-section style */
+
+/* ofer section styles */
+.section-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.offer-section-container {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 200px;
+  gap: 100px;
+}
+
+.offer-section-image {
+  padding: 75px 0;
+}
