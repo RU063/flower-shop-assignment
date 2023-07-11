@@ -238,14 +238,14 @@ header {
 .footer-description {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
 }
 .copyright {
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
   font-family: Lato;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
 }
