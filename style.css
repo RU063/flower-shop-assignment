@@ -81,45 +81,43 @@ header {
   padding: 75px 0;
 }
 /* instagram section styles */
-.instagram-section-container{
-    padding: 100px 200px;
+.instagram-section-container {
+  padding: 100px 200px;
   justify-content: center;
-align-items: center;
+  align-items: center;
 }
-  
 
-.instagram-section-image{
+.instagram-section-image {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 45px 0px;
 }
-.insta-img{
-  width: 220px;
-  height: 250px;
+.insta-img {
+  width: 260px;
+  height: 280px;
 }
-.input-container{
-background-image: url('./Flower Asset/Rectangle 9.png');
-background-repeat: no-repeat;
-height: 300px;
-margin: 10px 200px;
-padding-top: 30px;
-margin-bottom: 100px;
+.input-container {
+  background-image: url("./Flower Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-position: top center ;
+  height: 300px;
+  margin: 10px 195px;
+  padding-top: 30px;
+  margin-bottom: 100px;
 }
-.input{
+.input {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 250px
-
-
+  padding: 0 250px;
 }
-#email{
+#email {
   border-radius: 8px;
-background: #FFF;
-width: 400px;
-height: 40px;
+  background: #fff;
+  width: 600px;
+  height: 40px;
 }
-.subscribe{
+.subscribe {
   border-radius: 5px;
   background: #e55473;
   width: 115px;
@@ -129,10 +127,32 @@ height: 40px;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  margin-top: 20px;
+  margin: 20px 0 18px 20px;
+  /* margin-top: 20px; */
   border: none;
-  margin-bottom: 18px;
+  /* margin-bottom: 18px; */
 }
-.text-center{
+.text-center {
   text-align: center;
+}
+.footer-container {
+  background-color: #111010;
+  color: white;
+  height: 300px;
+  text-align: center;
+  padding-top: 100px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
