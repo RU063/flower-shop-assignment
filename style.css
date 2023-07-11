@@ -8,6 +8,7 @@ header {
   height: 600px;
   background: rgba(229, 84, 115, 0.1);
   background-size: cover;
+  margin-bottom: 120px;
 }
 .banner-container {
   padding: 0 200px;
@@ -17,7 +18,7 @@ header {
 }
 .banner-title {
   color: #272727;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 800;
   padding-top: 50px;
 }
@@ -59,7 +60,64 @@ header {
 }
 
 /* main-section style */
-
+/* feature section styles */
+.feature-text {
+  text-align: center;
+}
+.feature-box-container {
+  display: flex;
+  margin: 0 175px;
+  justify-content: space-around;
+  align-items: end;
+  margin-bottom: 150px;
+  text-align: center;
+  /* background-size: cover; */
+  
+  
+}
+.feature-box-1 {
+  background: linear-gradient(to bottom, rgba(167, 33, 98, 0.15) 78%, white 22%);
+  border-radius: 300px 300px 0px 0px;
+  width: 320px;
+  height: 400px;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 0;
+  background-size: contain;
+}
+.feature-box-2 {
+  background: linear-gradient(to bottom,  rgba(5, 151, 160, 0.15) 78%, white 22%);
+  border-radius: 300px 300px 0px 0px;
+  border-radius: 300px 300px 0px 0px;
+  width: 320px;
+  height: 400px;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 0; 
+}
+.feature-box-3 {
+  background: linear-gradient(to bottom, rgba(71, 125, 17, 0.15) 78%, white 22%);
+  border-radius: 300px 300px 0px 0px;
+  border-radius: 300px 300px 0px 0px;
+  width: 320px;
+  height: 400px;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+.feature-image{
+  width: 200px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.feature-box-text{
+  color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+}
 /* ofer section styles */
 .section-title {
   color: #272727;
@@ -99,11 +157,12 @@ header {
 .input-container {
   background-image: url("./Flower Asset/Rectangle 9.png");
   background-repeat: no-repeat;
-  background-position: top center ;
+  background-position: top center;
   height: 300px;
   margin: 10px 195px;
-  padding-top: 30px;
+  padding-top: 100px;
   margin-bottom: 100px;
+  padding-bottom: 30px;
 }
 .input {
   display: flex;
@@ -116,6 +175,7 @@ header {
   background: #fff;
   width: 600px;
   height: 40px;
+  padding-left: 15px;
 }
 .subscribe {
   border-radius: 5px;
